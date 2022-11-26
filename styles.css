@@ -1,0 +1,185 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+.header{
+ width: 100%;
+ height: 69px;
+ background-color: black;
+ display: block;
+position: fixed;
+top: 0px;
+border-bottom: 1px solid rgb(255, 255, 255);
+z-index: 99;
+right: 5px;
+}
+.title-image {
+    height: 67px;
+    float: left;
+padding-left: 20px;
+position: fixed;
+
+}
+.list{
+    float: right;
+    height: 100px;
+    margin: 0 auto;
+}
+.list li {
+    float: left;
+    display: table;
+    padding: 0px 20px;
+    height: 100%;
+    position: relative;
+    top: 22px;
+    text-decoration: underline;
+}
+.home{
+  
+  
+    background-image: url(./image/stijn-swinnen-qwe8TLRnG8k-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    filter: brightness(1.25);
+    height: 700px;
+    max-width: 1200px;
+    margin: 40px auto 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    right: 40px
+  }
+  .h {
+    text-align: center;
+    margin: auto;
+    width: 200%;
+    text-align: center;
+    margin-top: 70mm;
+    
+    
+  }
+  .h1 {
+    color: black !important;
+  }
+  .h2 {
+    color: black !important;
+  }
+  h5 {
+    color: black !important;
+  }
+  .ft{
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .trend img {
+    height: 200px;
+    width: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  h3{
+    text-align: center;
+  }
+  p{
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    font-size: x-large;
+    
+   
+  }
+  .stu{
+    color: white;
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;
+    text-align: center 
+  }
+
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+  float: left;
+  left: 1cm;
+  
+   
+}
+
+.y {
+  display: block;
+  width: 100%;
+  height: auto;
+  
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+.text{
+   margin: 1cm;
+   
+}
+.lefter{
+    margin-left: 10cm;
+}
+.container2 {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+    float: right;
+   
+    margin: 1cm;
+    
+     
+  }
+  .container2:hover .overlay {
+    opacity: 1;
+  }
+.titl{
+    text-align: center;
+    font-size: xx-large;
+}
+.end{
+    margin-top: 50px;
+   border-top: 1px solid seashell;
+   height: 30px;
+  }
+  .cpr{
+    float: left;
+  }
+  .nb{
+    float: right;
+  }
+  .vid1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+  }
+  .abcggg{
+    color: #f1f1f1;
+  }
