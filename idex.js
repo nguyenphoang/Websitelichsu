@@ -1,7 +1,7 @@
 function myFunction() {
     Swal.fire({
         icon: 'info',
-        title: 'Chào mừng bạn đến với website của chúng tôi, bạn có muốn nhận được giả giá 75% cho Learnmorw pro không',
+        title: 'Chào mừng bạn đến với website của chúng tôi, bạn có muốn nhận được giảm giá 75% cho Learnmorw pro không',
         showDenyButton: true,
         showCancelButton: true,
         confirmButtonText: 'Có',
